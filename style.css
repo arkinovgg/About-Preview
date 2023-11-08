@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(146deg, #FFF 22.96%, #F00 306.97%);
+    margin: 0px;
+}
+
+.PiH {
+    font-size: 46px;
+    background: linear-gradient(91deg, #FF6464 0%, #FFCA43 100%);
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+}
+
+.ava {
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    border-radius: 50%;
+    transition: 0.4s ease-out;
+}
+
+.ava:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+a {
+    text-decoration: none;
+    color: #FF8F57;
+}
+
+nav a:first-child {
+    background: linear-gradient(90deg, #F90 0%, #B65353 100%);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 155px;
+    text-align: center;
+    left: -150px;
+    transition: 0.4s ease-out;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 170px;
+    opacity: 0.4;
+}
+
+.aSecond {
+    background: linear-gradient(90deg, #FFCC68 0%, #D4FFF7 100%);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 205px;
+    width: 170px;
+    text-align: center;
+    left: -150px;
+    transition: 0.4s ease-out;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+nav a:last-child {
+    background: linear-gradient(90deg, #FFDFAF 0%, #BAFFAF 100%);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.00);
+    position: absolute;
+    top: 255px;
+    width: 170px;
+    text-align: center;
+    left: -150px;
+    transition: 0.4s ease-out;
+    position: fixed;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.4;
+}
+
+nav a:first-child:hover {
+    color: black;
+    left: 10px;
+    box-shadow: 0 0 25px black;
+    opacity: 1;
+}
+
+.aSecond:hover {
+    color: black;
+    left: 10px;
+    box-shadow: 0 0 25px black;
+    opacity: 1;
+}
+
+nav a:last-child:hover {
+    color: black;
+    left: 10px;
+    box-shadow: 0 0 25px black;
+    opacity: 1;
+}
+
+.h1Main {
+    text-align: center;
+    font-size: 52px;
+    margin-top: 90px;
+}
+
+.AboutMe {
+    font-size: 24px;
+    margin-top: 70px;
+    text-align: center;
+    background-color: white;
+    width: 1200px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    margin: auto;
+    color: #FF8F57;
+    border: 2px solid #FF8F57;
+}
+
+.AboutPreview {
+    font-size: 36px;
+    text-align: center;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstImg {
+    position: absolute;
+    opacity: 0.4;
+    transition: 0.4s ease-out;
+    margin-left: 10px;
+}
+
+.secondImg {
+    position: absolute;
+    left: 680px;
+    opacity: 0.4;
+    transition: 0.4s ease-out;
+}
+
+.thirdImg {
+    position: absolute;
+    left: 1340px;
+    opacity: 0.4;
+    transition: 0.4s ease-out;
+}
+
+.firstImg:hover {
+    opacity: 1;
+    box-shadow: 0px 0px 25px black;
+    border-radius: 15px;
+    transform: scale(1.07) translateX(23px);
+}
+
+.secondImg:hover {
+    position: absolute;
+    opacity: 1;
+    box-shadow: 0px 0px 25px black;
+    border-radius: 15px;
+    transform: scale(1.07);
+}
+
+.thirdImg:hover {
+    position: absolute;
+    opacity: 1;
+    box-shadow: 0px 0px 25px black;
+    border-radius: 15px;
+    transform: scale(1.07) translateX(-23px);
+}
+
+p {
+    font-size: 24px;
+}
+
+.AboutPack {
+    margin-top: 350px;
+}
+
+.threePhoto {
+    float: right;
+    margin-right: 25px;
+}
+
+.threeEffects {
+    float: left;
+    margin-left: 10px;
+}
+
+.Nah {
+    float: left;
+    margin-left: 10px;
+}
+
+.imgCtrl {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.DoIt {
+    text-align: center;
+    font-size: 52px;
+}
+
+.CF {
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    margin-top: 150px;
+    font-size: 36px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.4s ease-out;
+}
+
+.CF:hover {
+    box-shadow: 0px 0px 25px 0 black;
+    font-size: 38px;
+}
+
+.imgSet {
+    float: right;
+    margin-right: 10px;
+}
+
+.F {
+    float: left;
+    margin-left: 10px;
+}
+
+.Video {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+.marg {
+    margin-left: 10px;
+}
+
+#WhatNeed {
+    margin-left: 10px;
+}
+
+.orange {
+    color: #FF8F57;
+}
+
+.blick {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.imgcenter {
+    text-align: center;
+}
